@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+dist/
+*.egg-info/
+
+# Generated course content (copyrighted / personal data — never commit)
+course_*/
+*/audio/
+*/sentences/
+*/segs/
+*.mp3
+*.wav
+*.zip
+transcript.txt
+segments.json
+segments_*.json
+course.md
+listening_course.html
+source.txt
+
+# macOS
+.DS_Store
+
+# Environment — may contain secrets
+.env
+
+# Claude Code session files
+.claude/settings.local.json

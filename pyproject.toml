@@ -1,0 +1,14 @@
+[project]
+name = "make-course"
+version = "0.1.0"
+description = "Turn any YouTube video into an annotated English listening course with per-sentence audio players"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlx-whisper>=0.4.0",   # Whisper transcription on Apple Silicon
+    "markdown>=3.10",        # HTML generation
+    "yt-dlp>=2024.0",        # Video download
+]
+
+[tool.uv]
+# ffmpeg must be installed separately: brew install ffmpeg
